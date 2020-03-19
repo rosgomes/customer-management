@@ -12,3 +12,31 @@ Dado o teste: <br>
     <strong>e.</strong> Telefone. <br>
     
   <strong>2.2</strong> O Cliente pode ter 1 ou N endereços.
+------------------------------------------------------------------------------------------------------------------<br>
+
+Crie as seguintes tabelas no banco:
+
+<br><br>
+
+CREATE TABLE IF NOT EXISTS `user` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(220) NOT NULL,
+  `email` varchar(520) NOT NULL,
+  `passaword` varchar(50) NOT NULL,
+  `username` varchar(50) NOT NULL,
+  PRIMARY KEY (`id`)
+)
+
+<br><br>
+
+CREATE TABLE IF NOT EXISTS `customer` ( 
+  `id` int(11) NOT NULL AUTO_INCREMENT, 
+  `nome` varchar(220) NOT NULL, 
+  `datanasc` TIMESTAMP NOT NULL, 
+  `cpf` varchar(12) NOT NULL, 
+  `rg` varchar(10) NOT NULL, 
+  `telefone` varchar(10) NOT NULL, 
+  PRIMARY KEY (`id`),
+  UNIQUE (`cpf`), 
+  UNIQUE (`rg`) 
+)
