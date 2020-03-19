@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900&display=swap');
+*{
+    font-family: 'Work Sans', sans-serif;}
+h1{
+    color: #07034A73;
+    font-size: 2em;
+    font-weight: 800;}
+
+#section-login{
+    margin: 15%;}    
+
+#login{
+    max-width: 500px;
+    border: 1px solid #07034A73;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px #07034A73;}
