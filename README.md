@@ -14,7 +14,7 @@ Dado o teste: <br>
   <strong>2.2</strong> O Cliente pode ter 1 ou N endereços.<br>
 ------------------------------------------------------------------------------------------------------------------<br>
 
-Crie as seguintes tabelas no banco:
+Criei as seguintes tabelas no banco:
 
 <br>
 
