@@ -1,4 +1,5 @@
 # customer-management
+<!-- 
 Dado o teste: 
 1. Criar uma área administrativa onde o(s) usuário(s) devem acessar através de login e senha.
 
@@ -11,4 +12,4 @@ Dado o teste:
     d. RG; 
     e. Telefone. 
     
-  2.2. O Cliente pode ter 1 ou N endereços.
+  2.2. O Cliente pode ter 1 ou N endereços. -->
