@@ -11,12 +11,12 @@ Dado o teste: <br>
     <strong>d.</strong> RG; <br>
     <strong>e.</strong> Telefone. <br>
     
-  <strong>2.2</strong> O Cliente pode ter 1 ou N endereços.
+  <strong>2.2</strong> O Cliente pode ter 1 ou N endereços.<br>
 ------------------------------------------------------------------------------------------------------------------<br>
 
 Crie as seguintes tabelas no banco:
 
-<br><br>
+<br>
 
 CREATE TABLE IF NOT EXISTS `user` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -27,7 +27,7 @@ CREATE TABLE IF NOT EXISTS `user` (
   PRIMARY KEY (`id`)
 )
 
-<br><br>
+<br>
 
 CREATE TABLE IF NOT EXISTS `customer` ( 
   `id` int(11) NOT NULL AUTO_INCREMENT, 
@@ -39,4 +39,17 @@ CREATE TABLE IF NOT EXISTS `customer` (
   PRIMARY KEY (`id`),
   UNIQUE (`cpf`), 
   UNIQUE (`rg`) 
+)
+
+<br>
+
+CREATE TABLE IF NOT EXISTS `address` ( 
+  `id_address` int(11) NOT NULL AUTO_INCREMENT, 
+  `id_customer` int NULL, 
+  `street` varchar(50) NOT NULL, 
+  `number` int(11) NOT NULL, 
+  `neighborhood` varchar(50) NOT NULL, 
+  `city` varchar(50) NOT NULL, 
+  PRIMARY KEY (`id_address`), 
+  FOREIGN KEY (id_customer) REFERENCES customer (id) 
 )
