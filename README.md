@@ -1,14 +1,14 @@
 # customer-management
-Dado o teste: 
-1 Criar uma área administrativa onde o(s) usuário(s) devem acessar através de login e senha.<br>
+Dado o teste: <br>
+<strong>1</strong> Criar uma área administrativa onde o(s) usuário(s) devem acessar através de login e senha.<br>
 
-2 Criar um gerenciador de clientes (Listar, Incluir, Editar e Excluir)<br>
+<strong>2</strong> Criar um gerenciador de clientes (Listar, Incluir, Editar e Excluir)<br>
 
-  2.1. O cadastro do Cliente deve conter: <br>
-    a. Nome; <br>
-    b. Data Nascimento; <br>
-    c. CPF; <br>
-    d. RG; <br>
-    e. Telefone. <br>
+  <strong>2.1</strong> O cadastro do Cliente deve conter: <br>
+    <strong>a.</strong> Nome; <br>
+    <strong>b.</strong> Data Nascimento; <br>
+    <strong>c.</strong> CPF; <br>
+    <strong>d.</strong> RG; <br>
+    <strong>e.</strong> Telefone. <br>
     
-  2.2. O Cliente pode ter 1 ou N endereços.
+  <strong>2.2</strong> O Cliente pode ter 1 ou N endereços.
