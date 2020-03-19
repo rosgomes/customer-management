@@ -33,9 +33,9 @@ CREATE TABLE IF NOT EXISTS `customer` (
   `id` int(11) NOT NULL AUTO_INCREMENT, 
   `nome` varchar(220) NOT NULL, 
   `datanasc` TIMESTAMP NOT NULL, 
-  `cpf` varchar(12) NOT NULL, 
+  `cpf` varchar(11) NOT NULL, 
   `rg` varchar(10) NOT NULL, 
-  `telefone` varchar(10) NOT NULL, 
+  `telefone` varchar(11) NOT NULL, 
   PRIMARY KEY (`id`),
   UNIQUE (`cpf`), 
   UNIQUE (`rg`) 
