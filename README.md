@@ -51,5 +51,5 @@ CREATE TABLE IF NOT EXISTS `address` (
   `neighborhood` varchar(50) NOT NULL, 
   `city` varchar(50) NOT NULL, 
   PRIMARY KEY (`id_address`), 
-  FOREIGN KEY (id_customer) REFERENCES customer (id) 
+  FOREIGN KEY (id_customer) REFERENCES customer (id) on delete cascade 
 )
