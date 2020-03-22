@@ -52,4 +52,7 @@ CREATE TABLE IF NOT EXISTS `address` (
   `city` varchar(50) NOT NULL, 
   PRIMARY KEY (`id_address`), 
   FOREIGN KEY (id_customer) REFERENCES customer (id) on delete cascade 
-)
+)<br>
+------------------------------------------------------------------------------------------------------------------<br>
+
+Foi usado Bootstrap para algumas funções de estilo no projeto.
